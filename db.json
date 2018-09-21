@@ -1,7 +1,7 @@
 {
     "forms" : [
         {
-            "_id": "001",
+            "id": "1",
             "formName": "JCVD birthday party registration",
             "formTheme": "regular",
             "submitUrl": "https://test.com/submit/form",
@@ -126,7 +126,7 @@
         },
 
         {
-            "_id": "002",
+            "id": "002",
             "formName": "Nic Cage birthday party registration",
             "formTheme": "nic-cage",
             "submitUrl": "https://test.com/submit/form",
@@ -149,15 +149,15 @@
 
     "users" : [
         {
-            "_id": "001",
+            "id": "001",
             "name": "super user 0ne",
             "age": "66"
         }, {
-            "_id": "002",
+            "id": "002",
             "name": "super user tw0",
             "age": "66"
         }, {
-            "_id": "003",
+            "id": "003",
             "name": "super user tr0is",
             "age": "66"
         }
