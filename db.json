@@ -1,18 +1,36 @@
-[
-  {
-    "id": 4,
-    "title": "Post 4"
-  }
-  {
-    "id": 1,
-    "title": "Post 1"
-  },
-  {
-    "id": 2,
-    "title": "Post 2"
-  },
-  {
-    "id": 3,
-    "title": "Post 3"
-  }
-]
+{
+    "forms" : [
+        {
+            "id": 4,
+            "title": "Post 4"
+        }
+        {
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3"
+        }
+    ],
+
+    "users" : [
+        {
+            "id": 1,
+            "name": "super user 0ne",
+            "age": "66"
+        }, {
+            "id": 2,
+            "name": "super user tw0",
+            "age": "66"
+        }, {
+            "id": 3,
+            "name": "super user tr0is",
+            "age": "66"
+        }
+    ]
+}
