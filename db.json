@@ -1,165 +1,18 @@
-{
-    "forms" : [
-        {
-            "id": 1,
-            "formName": "JCVD birthday party registration",
-            "formTheme": "regular",
-            "submitUrl": "https://test.com/submit/form",
-            "formFields": [
-                {
-                    "fieldName": "first-name",
-                    "type": "text",
-                    "label": "First Name",
-                    "rules": [
-                        {
-                            "nonEmpty": true
-                        }, {
-                            "maxLength": "40"
-                        }
-                    ]
-                }, {
-                    "fieldName": "last-name",
-                    "type": "text",
-                    "label": "Last Name",
-                    "rules": [
-                        {
-                            "maxLength": "40"
-                        }
-                    ]
-                }, {
-                    "fieldName": "email-address",
-                    "type": "email",
-                    "label": "Email Address",
-                    "rules": [
-                        {
-                            "maxLength": "100"
-                        }
-                    ]
-                }, {
-                    "fieldName": "favorite-actor",
-                    "type": "select",
-                    "label": "Your favorite actor is :",
-                    "rules": [
-                        {
-                            "value": "jcvd",
-                            "errorMessage": "This is NOT the best actor, just think about it"
-                        }
-                    ],
-                    "options": [
-                        {
-                            "optionValue": "jcvd",
-                            "optionLabel": "Jean-Claude Van Damme"
-                        }, {
-                            "optionValue": "nic-cage",
-                            "optionLabel": "Nicholas Cage"
-                        }, {
-                            "optionValue": "al-pac",
-                            "optionLabel": "Al Pacino"
-                        }, {
-                            "optionValue": "arny",
-                            "optionLabel": "Arnold Schwarzenegger"
-                        }
-                    ]
-                }, {
-                    "fieldName": "preffered-day-week",
-                    "type": "checkbox",
-                    "label": "On what day of the week are you more likely to be available for the party ?",
-                    "rules": [
-                        {
-                            "nonEmpty": true,
-                            "errorMessage": "C'mon, select at least one option"
-                        }
-                    ],
-                    "options": [
-                        {
-                            "optionValue": "0",
-                            "optionLabel": "Moon's Day"
-                        }, {
-                            "optionValue": "1",
-                            "optionLabel": "Tyr's Day"
-                        }, {
-                            "optionValue": "2",
-                            "optionLabel": "Oden's Day"
-                        }, {
-                            "optionValue": "3",
-                            "optionLabel": "Thor's Day"
-                        }, {
-                            "optionValue": "4",
-                            "optionLabel": "Frey's Day"
-                        }, {
-                            "optionValue": "5",
-                            "optionLabel": "Saturn's Day"
-                        }, {
-                            "optionValue": "6",
-                            "optionLabel": "Sun's Day"
-                        }
-                    ]
-                }, {
-                    "fieldName": "dressing-code",
-                    "type": "radio",
-                    "label": "What will be your dressing code ?",
-                    "rules": [
-                        {
-                            "nonEmpty": true
-                        }, {
-                            "nonValue": "barbaric",
-                            "errorMessage": "C'mon, it is a civilized event, ramp up your game a bit !"
-                        }
-                    ],
-                    "options": [
-                        {
-                            "optionValue": "class",
-                            "optionLabel": "Top class"
-                        }, {
-                            "optionValue": "cocktail",
-                            "optionLabel": "Cocktail Apparel"
-                        }, {
-                            "optionValue": "casual",
-                            "optionLabel": "Casual"
-                        }, {
-                            "optionValue": "barbaric",
-                            "optionLabel": "As a caveman with wearing a sabertooth pelt"
-                        }
-                    ]
-                }
-            ]
-        },
-
-        {
-            "id": 2,
-            "formName": "Nic Cage birthday party registration",
-            "formTheme": "nic-cage",
-            "submitUrl": "https://test.com/submit/form",
-            "formFields": [
-                {
-                    "fieldName": "first-name",
-                    "type": "text",
-                    "label": "First Name",
-                    "rules": [
-                        {
-                            "nonEmpty": true
-                        }, {
-                            "maxLength": "40"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-
-    "users" : [
-        {
-            "id": 1,
-            "name": "super user 0ne",
-            "age": "66"
-        }, {
-            "id": 2,
-            "name": "super user tw0",
-            "age": "66"
-        }, {
-            "id": 3,
-            "name": "super user tr0is",
-            "age": "66"
-        }
-    ]
-}
+[
+  {
+    "id": 4,
+    "title": "Post 4"
+  }
+  {
+    "id": 1,
+    "title": "Post 1"
+  },
+  {
+    "id": 2,
+    "title": "Post 2"
+  },
+  {
+    "id": 3,
+    "title": "Post 3"
+  }
+]
