@@ -1,6 +1,6 @@
 {
-    "forms" : {
-        "jcvd" : {
+    "forms" : [
+        {
             "_id": "001",
             "formName": "JCVD birthday party registration",
             "formTheme": "regular",
@@ -125,7 +125,7 @@
             ]
         },
 
-        "nicCage": {
+        {
             "_id": "002",
             "formName": "Nic Cage birthday party registration",
             "formTheme": "nic-cage",
@@ -145,7 +145,7 @@
                 }
             ]
         }
-    },
+    ],
 
     "users" : [
         {
