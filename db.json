@@ -45,7 +45,7 @@
                     {
                         "rule": "exact-value",
                         "value": "nick-cage",
-                        "errorMessage": "This is NOT the best actor, just think about it"
+                        "errorMessage": "This is NOT the best actor, just think about it... it is Nick Cage, right?!?"
                     }
                 ],
                 "options": [
