@@ -11,9 +11,10 @@
                 "label": "First Name",
                 "rules": [
                     {
-                        "nonEmpty": true
+                        "rule": "non-empty"
                     }, {
-                        "maxLength": "40"
+                        "rule": "maxLength",
+                        "length": "100"
                     }
                 ]
             }, {
@@ -22,7 +23,8 @@
                 "label": "Last Name",
                 "rules": [
                     {
-                        "maxLength": "40"
+                        "rule": "maxLength",
+                        "length": "100"
                     }
                 ]
             }, {
@@ -31,7 +33,8 @@
                 "label": "Email Address",
                 "rules": [
                     {
-                        "maxLength": "100"
+                        "rule": "maxLength",
+                        "length": "100"
                     }
                 ]
             }, {
@@ -40,6 +43,7 @@
                 "label": "Your favorite actor is :",
                 "rules": [
                     {
+                        "rule": "exact-value",
                         "value": "nick-cage",
                         "errorMessage": "This is NOT the best actor, just think about it"
                     }
@@ -65,7 +69,7 @@
                 "label": "On what day of the week are you more likely to be available for the party ?",
                 "rules": [
                     {
-                        "nonEmpty": true,
+                        "rule": "non-empty",
                         "errorMessage": "C'mon, select at least one option"
                     }
                 ],
@@ -99,9 +103,10 @@
                 "label": "What will be your dressing code ?",
                 "rules": [
                     {
-                        "nonEmpty": true
+                        "rule": "non-empty"
                     }, {
-                        "nonValue": "barbaric",
+                        "rule": "non-value",
+                        "value": "barbaric",
                         "errorMessage": "C'mon, it is a civilized event, ramp up your game a bit !"
                     }
                 ],
