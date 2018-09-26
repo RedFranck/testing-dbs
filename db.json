@@ -105,7 +105,7 @@
                     {
                         "rule": "non-empty"
                     }, {
-                        "rule": "non-value",
+                        "rule": "except-value",
                         "value": "barbaric",
                         "errorMessage": "C'mon, it is a civilized event, ramp up your game a bit !"
                     }
