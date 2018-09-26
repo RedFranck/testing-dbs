@@ -13,7 +13,7 @@
                     {
                         "rule": "non-empty"
                     }, {
-                        "rule": "maxLength",
+                        "rule": "max-length",
                         "length": "100"
                     }
                 ]
@@ -23,7 +23,7 @@
                 "label": "Last Name",
                 "rules": [
                     {
-                        "rule": "maxLength",
+                        "rule": "max-length",
                         "length": "100"
                     }
                 ]
@@ -33,7 +33,7 @@
                 "label": "Email Address",
                 "rules": [
                     {
-                        "rule": "maxLength",
+                        "rule": "max-length",
                         "length": "100"
                     }
                 ]
